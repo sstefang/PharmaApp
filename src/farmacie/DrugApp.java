@@ -257,7 +257,7 @@ public class DrugApp {
 			Class.forName("com.mysql.jdbc.Driver");
 		
 		
-		Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","Antonica01*");
+		Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","");
 		
 		
 		Statement stmt = con.createStatement();
@@ -294,7 +294,7 @@ public class DrugApp {
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			
-			Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","Antonica01*");
+			Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","");
 			
 		
 			
@@ -321,7 +321,7 @@ public class DrugApp {
 			Class.forName("com.mysql.jdbc.Driver");
 		
 		
-		Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","Antonica01*");
+		Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","");
 		
 		
 		Statement stmt = con.createStatement();
@@ -364,7 +364,7 @@ public class DrugApp {
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			
-			Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","Antonica01*");
+			Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","");
 			
 			String query = "update drug set quantity = quantity + ? where name = ?";
 			
@@ -395,7 +395,7 @@ public class DrugApp {
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			
-			Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","Antonica01*");
+			Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/dbemployee","root","");
 			
 			String query = "update drug set quantity = quantity - ? where name = ?";
 			
