@@ -95,7 +95,7 @@ public class LoginApp {
 					
 				} else {
 					
-					JOptionPane.showMessageDialog(null, "Login ok!", "Error", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "Login not ok!", "Error", JOptionPane.ERROR_MESSAGE);
 				}
 			
 				
